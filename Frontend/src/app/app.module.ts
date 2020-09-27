@@ -1,6 +1,6 @@
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import{ Routes ,Router, RouterModule} from '@angular/router'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './Nav-bar/Nav-bar.component';
@@ -11,18 +11,19 @@ import { HttpClientModule } from '@angular/common/http';
 import { HousingService } from './Services/housing.service';
 import { AddPropertyComponent } from './AddProperty/AddProperty.component';
 import { PropertyDetailsComponent } from './Property-details/Property-details.component';
- // const appRoutes:Routes=[
-   // { path:'add-property', component:AddPropertyComponent},
-    //{path:'',component:PorpertyListComponent}
-  //]
+import { SellComponent } from './Sell/Sell.component';
+import { RentComponent } from './Rent/Rent.component';
+
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
       NavBarComponent,
       PropertyCartComponent,
       PorpertyListComponent,
       AddPropertyComponent,
-      PropertyDetailsComponent
+      PropertyDetailsComponent,
+      SellComponent,
+      RentComponent
    ],
   imports: [
     BrowserModule,

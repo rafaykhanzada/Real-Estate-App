@@ -18,7 +18,7 @@ GetAll():Observable<IProp[]>{
    map(data=>{
      const propertyarray:Array<any>=[];
      for(const id in data){
-       if(data.hasOwnProperty){
+       if(data.hasOwnProperty(id)){
          propertyarray.push(data[id]);
        }
      }

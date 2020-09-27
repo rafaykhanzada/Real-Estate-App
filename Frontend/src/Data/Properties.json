@@ -2,31 +2,43 @@
   "id":1,
   "name":"Banglos",
    "type": "House",
-   "price":2500
+   "price":2500,
+   "Image":"pic-1",
+   "For":1
 },{
  "id":2,
  "name":"Villas",
   "type": "House",
-  "price":2500
+  "price":2500,
+  "Image":"pic-2",
+  "For":0
 },{
  "id":3,
  "name":"Appartment",
   "type": "House",
-  "price":2500
+  "price":2500,
+  "Image":"pic-3",
+  "For":1
 },{
  "id":4,
  "name":"Housing",
   "type": "House",
-  "price":2500
+  "price":2500,
+  "Image":"pic-4",
+  "For":1
 },{
  "id":5,
  "name":"Banglos",
   "type": "House",
-  "price":2500
+  "price":2500,
+  "Image":"pic-5",
+  "For":1
 },{
  "id":6,
  "name":"Banglos",
   "type": "House",
-  "price":2500
+  "price":2500,
+  "Image":"pic-6",
+  "For":1
 }
 ]
