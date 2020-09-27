@@ -11,6 +11,7 @@ export class PropertyDetailsComponent implements OnInit {
   constructor(private route:ActivatedRoute) { }
 
   ngOnInit() {
+    this.PropertyID=this.route.snapshot.params['id'];
   }
 
 }
