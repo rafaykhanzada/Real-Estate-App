@@ -1,0 +1,27 @@
+
+.card:hover img{
+  transform: scale(1.2,1.2);
+transition-duration: 500ms;
+transition-timing-function: ease-out;
+height: 20%;
+opacity: 60%;
+overflow: hidden;
+}
+.card img{
+
+  transform: scale(1,1);
+transition-duration: 500ms;
+transition-timing-function: ease-out;
+height: 20%;
+}
+.img-wrapper{
+  overflow: hidden;
+}
+.mermber-icon{
+  margin-left: auto;
+  margin-right: auto;
+right: 0;
+left: 0;
+bottom: 0;
+}
+

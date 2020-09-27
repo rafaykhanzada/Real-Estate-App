@@ -1,0 +1,32 @@
+[{
+  "id":1,
+  "name":"Banglos",
+   "type": "House",
+   "price":2500
+},{
+ "id":2,
+ "name":"Villas",
+  "type": "House",
+  "price":2500
+},{
+ "id":3,
+ "name":"Appartment",
+  "type": "House",
+  "price":2500
+},{
+ "id":4,
+ "name":"Housing",
+  "type": "House",
+  "price":2500
+},{
+ "id":5,
+ "name":"Banglos",
+  "type": "House",
+  "price":2500
+},{
+ "id":6,
+ "name":"Banglos",
+  "type": "House",
+  "price":2500
+}
+]

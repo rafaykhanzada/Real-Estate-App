@@ -1,11 +1,41 @@
-<div class="row">
-  <div class="shadow-lg">
-<div class="card">
-      <img class="propimg" src="/assets/images/house.png"/>
-      <div class="card-body p-1">
-        <h1>{{Property.name}}</h1>
-        <h2>{{Property.type}}</h2>
-        <h3>{{Property.price}}</h3>
+<!--div class="row">
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
-</div></div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div-->
+<div class="card">
+  <div class="img-wrapper">
+
+    <img class="card-img-top" src="/assets/images/house.png" alt="Card image cap">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">{{propname.name}}</h5>
+    <p class="card-text">{{propname.type}}</p>
+    <ul>
+      <li class="list-inline-item">
+
+        <a  routerLink="property-details/{{propname.id}}" class="btn btn-primary">Details</a>
+      </li>
+      <li class="list-inline-item">
+
+        <a href="#" class="btn btn-primary">Contact</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
